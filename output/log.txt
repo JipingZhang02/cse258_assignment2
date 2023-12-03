@@ -1,0 +1,57 @@
+start training BertForSequenceClassification model , dataset is review_text only
+start training BertForSequenceClassification model , dataset is review_text only
+start training BertForSequenceClassification model , dataset is review_text only
+start training BertForSequenceClassification model , dataset is review_text only
+start training BertForSequenceClassification model , dataset is review_text only
+    ber after epoch 1: 0.37931274449370733, model params saved to ./output/review_only_bert_e0_b10_lr1e-06_l20.0001_ber0.3793
+    ber after epoch 2: 0.37853059549852885, model params saved to ./output/review_only_bert_e1_b10_lr1e-06_l20.0001_ber0.3785
+    ber after epoch 3: 0.4124223993752043, model params saved to ./output/review_only_bert_e2_b10_lr1e-06_l20.0001_ber0.4124
+    ber after epoch 4: 0.40707284984883074, model params saved to ./output/review_only_bert_e3_b10_lr1e-06_l20.0001_ber0.4071
+start training BertForSequenceClassification model , dataset is review_text only
+    ber after epoch 1: 0.4172200086344764, model params saved to ./output/review_only_bert_e0_b10_lr1e-06_l20.0001_ber0.4172
+    ber after epoch 2: 0.41680180710553416, model params saved to ./output/review_only_bert_e1_b10_lr1e-06_l20.0001_ber0.4168
+start training BertForSequenceClassification model , dataset is review_text only
+    ber after epoch 1: 0.3921955283438725, model params saved to ./output/review_only_bert_e0_b10_lr1e-06_l20.0001_ber0.3922
+    ber after epoch 2: 0.37251004359783924, model params saved to ./output/review_only_bert_e1_b10_lr1e-06_l20.0001_ber0.3725
+    ber after epoch 3: 0.4018159774751643, model params saved to ./output/review_only_bert_e2_b10_lr1e-06_l20.0001_ber0.4018
+start training BertForSequenceClassification model , dataset is review_text only
+    ber after epoch 1: 0.3743787580008252, model params saved to ./output/review_only_bert_e0_b10_lr1e-06_l20.0001_ber0.3744
+    ber after epoch 2: 0.3903757910126908, model params saved to ./output/review_only_bert_e1_b10_lr1e-06_l20.0001_ber0.3904
+    ber after epoch 3: 0.39790374834558095, model params saved to ./output/review_only_bert_e2_b10_lr1e-06_l20.0001_ber0.3979
+    ber after epoch 4: 0.3977052015629128, model params saved to ./output/review_only_bert_e3_b10_lr1e-06_l20.0001_ber0.3977
+start training BertForSequenceClassification model , dataset is review_text only
+start training BertForSequenceClassification model , dataset is review_text only
+    ber after epoch 1: 0.37118910849522657, model params saved to ./output/review_only_bert_e0_b10_lr1e-06_l20.0001_ber0.3712, other performance infos:(0.9012, 110, 772, 8902, 216, 0.3374233128834356, 0.07980152987388878, 0.9201984701261112, 0.6625766871165644, 0.37118910849522657)
+    ber after epoch 2: 0.3922673639164366, model params saved to ./output/review_only_bert_e1_b10_lr1e-06_l20.0001_ber0.3923, other performance infos:(0.9149, 91, 616, 9058, 235, 0.2791411042944785, 0.06367583212735166, 0.9363241678726484, 0.7208588957055214, 0.3922673639164366)
+start training BertForSequenceClassification model , dataset is review_text only
+start training BertForSequenceClassification model , dataset is review_text only
+start training BertForSequenceClassification model , dataset is review_text only
+start training BertForSequenceClassification model , dataset is review_text only
+    ber after epoch 1: 0.3485507908584832, model params saved to ./output/review_only_bert_e0_b5_lr1e-06_l20.0001_ber0.3486, other performance infos:(0.895, 125, 312, 4350, 213, 0.3698224852071006, 0.06692406692406692, 0.9330759330759331, 0.6301775147928994, 0.3485507908584832)
+    ber after epoch 2: 0.32140572525187916, model params saved to ./output/review_only_bert_e1_b5_lr1e-06_l20.0001_ber0.3214, other performance infos:(0.9098, 139, 252, 4410, 199, 0.41124260355029585, 0.05405405405405406, 0.9459459459459459, 0.5887573964497042, 0.32140572525187916)
+    ber after epoch 3: 0.33021863791094563, model params saved to ./output/review_only_bert_e2_b5_lr1e-06_l20.0001_ber0.3302, other performance infos:(0.9036, 135, 279, 4383, 203, 0.3994082840236686, 0.059845559845559844, 0.9401544401544402, 0.6005917159763313, 0.33021863791094563)
+start training BertForSequenceClassification model , dataset is review_text_wd
+    ber after epoch 1: 0.24025427566182578, model params saved to ./output/review_wd_bert_e2.718281828_b5_lr1e-06_l20.0001_ber0.2403, other performance infos:(0.733, 276, 1262, 3389, 73, 0.7908309455587392, 0.2713394968823909, 0.7286605031176091, 0.20916905444126074, 0.24025427566182578)
+       accu    ber    tpr    fpr    tnr    fnr    ths
+    0.733000.240250.790830.271340.728660.209170.28194
+    ber after epoch 2: 0.22667584196392432, model params saved to ./output/review_wd_bert_e1_b5_lr1e-06_l20.0001_ber0.2267, other performance infos:(0.7484, 280, 1189, 3462, 69, 0.8022922636103151, 0.25564394753816383, 0.7443560524618361, 0.1977077363896848, 0.22667584196392432)
+       accu    ber    tpr    fpr    tnr    fnr    ths
+    0.7484 0.2267 0.8023 0.2556 0.7444 0.1977 0.2148 
+    ber after epoch 3: 0.22890046137288156, model params saved to ./output/review_wd_bert_e2_b5_lr1e-06_l20.0001_ber0.2289, other performance infos:(0.7344, 284, 1263, 3388, 65, 0.8137535816618912, 0.2715545044076543, 0.7284454955923457, 0.18624641833810887, 0.22890046137288156)
+       accu    ber    tpr    fpr    tnr    fnr    ths
+    0.7344 0.2289 0.8138 0.2716 0.7284 0.1862 0.1416 
+start training BertForSequenceClassification model , dataset is review_text only
+    ber after epoch 1: 0.23858516166208477, model params saved to ./output/review_only_bert_e0_b5_lr1e-06_l20.0001_ber0.2386, other performance infos:(0.7828, 249, 997, 3665, 89, 0.7366863905325444, 0.21385671385671387, 0.7861432861432861, 0.26331360946745563, 0.23858516166208477)
+       accu    ber    tpr    fpr    tnr    fnr    ths
+     0.7828 0.2386 0.7367 0.2139 0.7861 0.2633 0.2896 
+    ber after epoch 2: 0.23895450818527741, model params saved to ./output/review_only_bert_e1_b5_lr1e-06_l20.0001_ber0.2390, other performance infos:(0.8384, 227, 697, 3965, 111, 0.6715976331360947, 0.14950664950664952, 0.8504933504933505, 0.32840236686390534, 0.23895450818527741)
+       accu    ber    tpr    fpr    tnr    fnr    ths
+     0.8384 0.2390 0.6716 0.1495 0.8505 0.3284 0.2404 
+start training BertForSequenceClassification model , dataset is review_text only
+    ber after epoch 1: 0.23274986736525194, model params saved to ./output/review_only_bert_e0_b5_lr1e-06_l20.0001_ber0.2327, other performance infos:(0.7246, 276, 1315, 3347, 62, 0.8165680473372781, 0.28206778206778205, 0.717932217932218, 0.1834319526627219, 0.23274986736525194)
+       accu    ber    tpr    fpr    tnr    fnr    ths
+     0.7246 0.2327 0.8166 0.2821 0.7179 0.1834 0.2099 
+    ber after epoch 2: 0.2255748986518218, model params saved to ./output/review_only_bert_e1_b5_lr1e-06_l20.0001_ber0.2256, other performance infos:(0.7738, 262, 1055, 3607, 76, 0.7751479289940828, 0.2262977262977263, 0.7737022737022737, 0.22485207100591717, 0.2255748986518218)
+       accu    ber    tpr    fpr    tnr    fnr    ths
+     0.7738 0.2256 0.7751 0.2263 0.7737 0.2249 0.2389 
+start training BertForSequenceClassification model , dataset is review_text only

@@ -1,0 +1,7 @@
+*.gz
+glove.6B
+goodreads_*json
+/**/deprecated
+output/*bert*
+output/*lstm*
+__pycache__
